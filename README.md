@@ -2,6 +2,14 @@
 
 Test result:
 
+| container type | emplace | try_emplace |
+|---|---|---|
+| set | 24.85 | 21.57 |
+| unordered_set | 10.36 | 8.09 |
+| map | 25.31 | 19.55 |
+| unordered_map | 7.79 | 10.37 |
+
+
 ### std::set
 ```bash
 $ /usr/bin/time ./foo set emplace 10000000

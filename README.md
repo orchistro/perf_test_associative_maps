@@ -1,6 +1,6 @@
 # Performance test of associative maps/sets for eliminating duplicate items
 
-Test result: (unit:seconds took)
+Test result: (unit:seconds taken)
 
 | container type | emplace | try_emplace |
 |---|---|---|
